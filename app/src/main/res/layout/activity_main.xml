@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView_logo"
+        android:layout_width="95dp"
+        android:layout_height="79dp"
+        app:srcCompat="@drawable/logo_i_hc_s_phm_k_thut___nng" />
+
+    <EditText
+        android:id="@+id/edtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/botron_edittext_top"
+        android:hint="Tên đăng nhập"
+        android:padding="5dp"
+        android:singleLine="false"
+        android:textColor="#007BFF"
+        android:textColorHint="#007BFF" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/botron_edittext_bottom"
+        android:hint="Mật khẩu"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:textColor="#007BFF"
+        android:textColorHint="#007BFF" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/botron_button"
+        android:padding="4dp"
+        android:text="ĐĂNG NHẬP"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvForgetPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Quên mật khẩu?"
+        android:textColor="#007BFF"
+        android:textSize="15sp" />
+
+</LinearLayout>

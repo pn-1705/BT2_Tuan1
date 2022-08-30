@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <TextView
+    android:gravity="center"
+    android:textSize="25dp"
+    android:textStyle="bold"
+    android:text="ĐĂNG KÍ"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_marginHorizontal="50dp"
+        android:hint="Tên đăng nhập"
+        android:id="@+id/edittext_user_signup"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_marginHorizontal="50dp"
+        android:hint="Mật khẩu"
+        android:id="@+id/edittext_password_signup"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_marginHorizontal="50dp"
+        android:hint="Xác nhận mật khẩu"
+        android:id="@+id/edittext_cfpassword_signup"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+        <Button
+            android:layout_marginRight="15dp"
+            android:backgroundTint="@color/material_dynamic_neutral60"
+            android:text="Hủy"
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="Đăng ký"
+            android:id="@+id/btnSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>
